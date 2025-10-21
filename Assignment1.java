@@ -56,7 +56,7 @@ class Electronics extends Product{
 	//implementing abstract method
 	@Override
 	public void displayDetails() {
-		System.out.println("--Electronics Details--");
+		System.out.println("---Electronics Details---");
 		System.out.println("Name : " + getName());
 		System.out.println("Brand : " + brand);
 		System.out.println("Model : " + model);
